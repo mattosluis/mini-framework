@@ -4,19 +4,19 @@ require_once "env.php";
 
 if(ENVIRONMENT == 'dev'){
 
-    define("BASE_ULR", "http://localhost/prova-senai/");
+    define("BASE_ULR", "http://localhost/mini-framework/");
 
     $config['host'] = '127.0.0.1';
-    $config['dbname'] = 'prova';
+    $config['dbname'] = 'prova-senai';
     $config['user'] = 'postgres';
     $config['pass'] = 'postgres';
 
 } else {
 
-    define("BASE_ULR", "http://localhost/prova-senai/");
+    define("BASE_ULR", "http://localhost/mini-framework/");
 
     $config['host'] = '127.0.0.1';
-    $config['dbname'] = 'prova';
+    $config['dbname'] = 'prova-senai';
     $config['user'] = 'postgres';
     $config['pass'] = 'postgres';
 }
